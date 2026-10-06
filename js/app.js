@@ -64,7 +64,7 @@ function home(){
 function episodes(){
   const seasons=[...new Set(ordered().map(e=>e.season))];
   let h=`<h2 class="title">${EW} List</h2>`;
-  if(!seasons.length) h+='<p class="empty-note">No chapters yet.</p>';
+  if(!seasons.length) h+='<p class="empty-note">No episodes yet.</p>';
   seasons.forEach(s=>{
     h+=`<h3 class="sec">${esc(C.seasonNames?.[s]||'Season '+s)}</h3><table><tr><th>#</th><th>${EW}</th><th>Date</th><th>Summary</th></tr>`;
     ordered().filter(e=>e.season===s).forEach(e=>{h+=`<tr><td>${e.num}</td><td><a href="#/episode/${e.id}">${esc(e.title)}</a>${newTag(e)}</td><td>${esc(e.airDate||'')}</td><td>${esc(e.summary||'')}</td></tr>`});

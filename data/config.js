@@ -8,7 +8,7 @@ window.WIKI = {
     episodeWord: "Episode",            // "Episode" or "Chapter" – used everywhere in the UI
     seasonNames: { 1: "Season 1: The Journey Begins" },
     footer: "Pokémon: Indigo Chronicles Wiki",
-    // Sidebar widgets (shown on the home page and every chapter page)
+    // Sidebar widgets (shown on the home page and every episode page)
     trainer: { character: "protagonist", badges: 0, totalBadges: 8, region: "Kanto" },
     party: ["sparky"]                   // up to 6 Pokémon ids (from pokemon.js)
   },
