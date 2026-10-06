@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pokémon: Indigo Chronicles Wiki</title>
+<meta name="description" content="Fan-made wiki for Pokémon: Indigo Chronicles: chapters, characters, Pokémon and species.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="banner"><a href="#/"><h1 id="siteTitle"></h1><p id="siteTag"></p></a></header>
+<div class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav">
+    <a href="#/" data-r="home">Home</a>
+    <a href="#/episodes" data-r="episodes" id="navEp">Episodes</a>
+    <a href="#/characters" data-r="characters">Characters</a>
+    <a href="#/pokemon" data-r="pokemon">Pokémon</a>
+    <a href="#/species" data-r="species">Species</a>
+    <a href="#/locations" data-r="locations">Locations</a>
+    <a href="#/updates" data-r="updates">Updates</a>
+  </nav>
+  <form id="searchForm" class="search" role="search">
+    <input id="searchInput" type="search" placeholder="Search the wiki…" autocomplete="off">
+  </form>
+</div>
+<div class="container" id="container"><main id="app"></main><aside id="side"></aside></div>
+<footer class="foot">
+  <span id="footText"></span>
+  <span>Fan-made. Pokémon © Nintendo / Creatures / GAME FREAK. Not affiliated or endorsed.</span>
+</footer>
+<script src="data/config.js"></script>
+<script src="data/species.js"></script>
+<script src="data/characters.js"></script>
+<script src="data/pokemon.js"></script>
+<script src="data/locations.js"></script>
+<script src="data/episodes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
