@@ -1,4 +1,4 @@
-# Pokémon: Indigo Chronicles Wiki
+# Pokémon Prism Wiki
 
 A fan-made, Bulbapedia-style wiki for the series. Plain HTML/CSS/JS, so there's no build step. Open `index.html`, or host it on GitHub Pages.
 
