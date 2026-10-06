@@ -164,7 +164,7 @@ WIKI.episodes.push(
 
   { id:"EP12", season:2, num:12, title:"Who Will Eevee Choose?", jpTitle:"イーブイは誰を選ぶ？", romaji:"Ībui wa Dare o Erabu?",
     airDate:"Feb 17, 2027",
-    summary:"Sora chases a wild Eevee for four hours, Nova just sits and draws, and Lucien finds a message from his aunt.",
+    summary:"Sora chases a wild Eevee for four hours, Nova just sits and draws, and Lucien finds a message from his Tante Mireille.",
     synopsis:[
       "In the [[location:jardin-luxembourg|Jardin du Luxembourg]], a wild Eevee that has outsmarted every trainer in Paris for a month runs [[character:sora|Sora]] ragged.",
       "[[character:nova|Nova]] sits on a bench with her sketchbook. Now that Necrozma is eating better, the Eevee is the first wild Pokémon that doesn't run from her, and it walks right up.",
@@ -283,5 +283,23 @@ WIKI.episodes.push(
     characters:["nova","sora","lucien","batiste","faure","boogie","jax","bia","marchand","reid"], pokemon:["necrozma","nova-litwick","sora-eevee","iwanko","absol","waffle","boogie-applin","jax-pawmi","bia-fuecoco","marchand-chandelure","reid-gyarados"], species:["necrozma","litwick","chandelure","gyarados","eevee","applin","pawmi","fuecoco","growlithe"], locations:["rue-de-lancry","accor-arena","quai-tournelle"],
     trivia:["First Mega Evolution seen in person by the main cast.","Necrozma shows Nova its true form on purpose.","Litwick watched the exact playbook it will use later: Smog, a dimmed flame, Minimize, Hex."],
     quotes:["“That's us.” — Nova, watching La Lanterne","“None of my Pokémon can Mega Evolve. Ever.” — Sora","“I'ma give it back to you. All of it.” — Nova, to Necrozma"],
+    added:"2026-10-06" },
+
+  { id:"EP21", season:2, num:21, title:"Who Does the Light Belong To?", jpTitle:"光は誰のもの", romaji:"Hikari wa Dare no Mono",
+    airDate:"Feb 26, 2027",
+    summary:"The Grand Palais gala. Verane greets Nova by name, the Prism Core pulls every scrap of light out of the room, and Lucien says, “Hello, Papa.”",
+    synopsis:[
+      "At the [[location:grand-palais|Grand Palais]], Lumen Meridian Europe's “Light Belongs to Everyone” gala. [[character:nova|Nova]] wears a black Sézane dress, [[character:sora|Sora]] wears Madame Brissac's late husband's navy suit, [[character:batiste|Batiste]] wears green velvet, and [[character:voss|Voss]] wears a navy gown with her Metagross bracelet and a Key Stone. [[character:elias-verane|Dr. Verane]] greets Nova with “Novalee. There you are.” and names Batiste (Guadeloupe, 2019) and Sora (Takeda Auto Works). [[character:okonkwo-hale|Director Okonkwo-Hale]] toasts him.",
+      "Then the Prism Core pulls every bit of light out of the room. The Beast Ball's node turns red and tears out of Nova's pocket, and [[pokemon:necrozma|Necrozma]] bursts out with Prism Armor. Nova says “Dr. Elias Verane” out loud, and Necrozma's memory answers: There she is. In the memory, from Necrozma's side of Verane's lab, a voice says, “Yield's up eleven percent. Good. Again.”",
+      "[[character:mara|Mara]] (Honchkrow, [[pokemon:mara-pyroar|Pyroar]]), [[character:theo|Theo]] ([[pokemon:theo-houndoom|Houndoom]], [[pokemon:theo-liepard|Liepard]]) and [[character:crale|Crale]] attack. [[pokemon:nova-litwick|Litwick]] absorbs Pyroar's Flamethrower, and Batiste names what it did: Flash Fire. [[pokemon:wren-dreepy|Dreepy]]'s Astonish, [[pokemon:jax-pawmi|Pawmi]]'s Thunder Shock and [[pokemon:sora-eevee|Eevee]]'s new Bite all help, and Voss's Mega Metagross cracks the Prism Core with Meteor Mash. Voss holds a door for six minutes and is arrested without resisting. She chose Nova.",
+      "[[character:lucien|Lucien]] drops from the glass roof, with [[pokemon:lucien-zoroark|Zoroark]] filling the room with hundreds of Novas. “Hello, Papa.” Afterward, in a pavilion, Nova and Lucien share a hug: “You said his name.” “And you said ‘hello, Papa.’” Nova also gives [[character:dani|Dani]] her first honest “When I can, Mama.”",
+      "In the tag, a shaken Verane says:“…He let her out… And she's fourteen… I finally saw the key.”"
+    ],
+    characters:["nova","sora","lucien","batiste","voss","elias-verane","okonkwo-hale","mara","theo","crale","wren","jax","dani"],
+    pokemon:["necrozma","nova-litwick","sora-eevee","lucien-zoroark","voss-metagross","wren-dreepy","jax-pawmi","lumen-honchkrow","mara-pyroar","theo-houndoom","theo-liepard"],
+    species:["necrozma","litwick","metagross","zoroark-hisui","pyroar","houndoom","liepard","eevee","pawmi","dreepy","honchkrow"],
+    locations:["grand-palais"],
+    trivia:["Necrozma's ability, Prism Armor, is revealed on the page.","Litwick's ability, Flash Fire, is revealed.","Eevee learns Bite.","Nova gets a memory of Verane's lab from Necrozma's side.","Okonkwo-Hale is not the same person as Dr. Imogen Hale."],
+    quotes:["“Novalee. There you are.” — Elias Verane","“Yield's up eleven percent. Good. Again.” — from Necrozma's memory","“Hello, Papa.” — Lucien","“When I can, Mama.” — Nova","“…I finally saw the key.” — Elias Verane"],
     added:"2026-10-06" }
 );

@@ -62,5 +62,5 @@ WIKI.locations.push(
   { id:"quai-tournelle", name:"Quai de la Tournelle", type:"Riverside", region:"Kalos (Paris, France)",
     desc:"The Seine riverbank where Nova said yes to the gala, and Necrozma drank the Eiffel Tower's sparkle.", firstAppearance:"EP20", added:"2026-10-06" },
   { id:"grand-palais", name:"Grand Palais", type:"Event venue", region:"Kalos (Paris, France)",
-    desc:"Venue of Lumen Meridian Europe's “Light Belongs to Everyone” gala, Friday, February 26, 2027.", added:"2026-10-06" }
+    desc:"Venue of Lumen Meridian Europe's “Light Belongs to Everyone” gala, Friday, February 26, 2027, the invitation Nova accepted on the Quai de la Tournelle. Dr. Verane greeted her there by name, and Director Okonkwo-Hale toasted him. Then a Prism Core pulled all the light out of the room, the Beast Ball's node turned red and tore out of Nova's pocket, and Necrozma burst out. Lucien dropped from the glass roof, Voss's Mega Metagross cracked the Core with Meteor Mash, and Voss held a door for six minutes before she was arrested.", firstAppearance:"EP21", added:"2026-10-06" }
 );

@@ -6,12 +6,12 @@ WIKI.pokemon.push(
   // ── NOVA ──
   { id:"necrozma", name:"Necrozma", species:"necrozma", trainer:"nova", gender:"Genderless", ability:"Prism Armor",
     moves:["Prismatic Laser"],
-    desc:"Nova's official, classified starter (League case G-114). Once a being of pure light over Ultra Megalopolis, it lost its light to people who took it. Lumen Meridian caught it in a Beast Ball in Ultra Space and drained it, until it broke out, burned its last light to tear open a wormhole, and crashed in the woods behind Nova's house. It's proud, ancient, in constant pain, deeply suspicious of humans, and always hungry for light. It doesn't speak; its glow, its hum, the clicks of its prisms and the feelings that bleed into Nova say everything. Its cracks are slowly filling with gold. Trust so far: it goes into the ball when asked, comes out when called, protected Nova on the Euston Road, gave light to a starving Litwick, chose to show her the lantern, bowed to her mother, and showed her what it used to be.",
+    desc:"Nova's official, classified starter (League case G-114). Once a being of pure light over Ultra Megalopolis, it lost its light to people who took it. Lumen Meridian caught it in a Beast Ball in Ultra Space and drained it, until it broke out, burned its last light to tear open a wormhole, and crashed in the woods behind Nova's house. It's proud, ancient, in constant pain, deeply suspicious of humans, and always hungry for light. It doesn't speak; its glow, its hum, the clicks of its prisms and the feelings that bleed into Nova say everything. Its cracks are slowly filling with gold. Trust so far: it goes into the ball when asked, comes out when called, protected Nova on the Euston Road, gave light to a starving Litwick, chose to show her the lantern, bowed to her mother, and showed her what it used to be. At the Grand Palais gala ([[episode:EP21]]), when the Prism Core pulled all the light out of the room and the Beast Ball's node turned red and tore out of Nova's pocket, Necrozma burst out with Prism Armor, and went back in when Nova asked. Its memory of Verane's lab answered when she said his name.",
     firstAppearance:"EP01", status:"With Nova (conditional registration)", added:"2026-10-06" },
 
-  { id:"nova-litwick", name:"Litwick", species:"litwick", trainer:"nova", gender:"Female", ability:"Not yet revealed",
-    moves:["Ember","Astonish","Smog"],
-    desc:"The tiny, starving runt of the Highgate Cemetery colony. When the others swarmed, it drifted to Nova's hair clip instead, and Necrozma pulsed its own glow so the little flame could catch. It tapped Nova's Poké Ball on its own. It lost its first battle to Jax's Pawmi in forty-eight seconds, and is learning from Ms. Batiste to fight small and smart: hiding in Smog, dimming its flame, waiting. After watching La Lanterne's Mega Chandelure, it hasn't stopped glowing. It also serves as a private light source for Necrozma, which Necrozma tolerates.",
+  { id:"nova-litwick", name:"Litwick", species:"litwick", trainer:"nova", gender:"Female", ability:"Flash Fire",
+    moves:["Ember","Astonish","Smog","Dim"],
+    desc:"The tiny, starving runt of the Highgate Cemetery colony. When the others swarmed, it drifted to Nova's hair clip instead, and Necrozma pulsed its own glow so the little flame could catch. It tapped Nova's Poké Ball on its own. It lost its first battle to Jax's Pawmi in forty-eight seconds, and is learning from Ms. Batiste to fight small and smart: hiding in Smog, dimming its flame, waiting. After watching La Lanterne's Mega Chandelure, it hasn't stopped glowing. It also serves as a private light source for Necrozma, which Necrozma tolerates. At the gala ([[episode:EP21]]) it absorbed [[pokemon:mara-pyroar|Pyroar]]'s Flamethrower, and [[character:batiste|Batiste]] named the ability: Flash Fire.",
     firstAppearance:"EP06", status:"With Nova", added:"2026-10-06" },
 
   // ── SORA ──
@@ -20,8 +20,8 @@ WIKI.pokemon.push(
     desc:"Sora's starter, called by its Japanese name. A scrappy, loyal pup that runs with him and reads his body language. It growled at Nova's backpack the moment they met at Heathrow.",
     firstAppearance:"EP03", status:"With Sora", added:"2026-10-06" },
   { id:"sora-eevee", name:"Eevee", species:"eevee", trainer:"sora", gender:"",
-    moves:[],
-    desc:"A wild Eevee that outsmarted every trainer in Paris for a month. It walked right up to Nova, then chose Sora, the one who chased it for four hours and never quit. Owns a tiny purple Kalos League scarf.",
+    moves:["Bite"],
+    desc:"A wild Eevee that outsmarted every trainer in Paris for a month. It walked right up to Nova, then chose Sora, the one who chased it for four hours and never quit. Owns a tiny purple Kalos League scarf. It learned Bite during the gala fight ([[episode:EP21]]).",
     firstAppearance:"EP12", status:"With Sora", added:"2026-10-06" },
 
   // ── LUCIEN ──
@@ -41,7 +41,7 @@ WIKI.pokemon.push(
   { id:"kennedy-riolu", name:"Riolu", species:"riolu", trainer:"kennedy", gender:"",
     moves:[], desc:"Kennedy's starter: a fighter with something to prove, like her.", status:"With Kennedy", added:"2026-10-06" },
   { id:"jax-pawmi", name:"Pawmi", species:"pawmi", trainer:"jax", gender:"",
-    moves:[], desc:"Fast, loud, and a natural on camera. Beat Nova's Litwick in forty-eight seconds on the Champ de Mars.",
+    moves:["Thunder Shock"], desc:"Fast, loud, and a natural on camera. Beat Nova's Litwick in forty-eight seconds on the Champ de Mars. Used Thunder Shock at the gala ([[episode:EP21]]).",
     firstAppearance:"EP13", status:"With Jax", added:"2026-10-06" },
   { id:"bia-fuecoco", name:"Fuecoco", species:"fuecoco", trainer:"bia", gender:"",
     moves:[], desc:"Bia's Fuecoco. Snores, and eats dropped frites off the pavement.",
@@ -53,7 +53,7 @@ WIKI.pokemon.push(
     moves:[], desc:"A tiny apple Pokémon Boogie picked up in Galar, apparently by accident. It hides in his snacks.",
     firstAppearance:"EP14", status:"With Boogie", added:"2026-10-06" },
   { id:"wren-dreepy", name:"Dreepy", species:"dreepy", trainer:"wren", gender:"",
-    moves:[], desc:"The rarest Pokémon in the Hampton Roads Starter Reserve. It fled the area near Nova before anything else did, then chose Wren.",
+    moves:["Astonish"], desc:"The rarest Pokémon in the Hampton Roads Starter Reserve. It fled the area near Nova before anything else did, then chose Wren. Its Astonish helped at the gala ([[episode:EP21]]).",
     status:"With Wren", added:"2026-10-06" },
 
   // ── ADULTS ──
@@ -61,7 +61,7 @@ WIKI.pokemon.push(
     moves:[], desc:"Batiste's old Ranger partner. It dove out of the night over Montmartre and fought Lumen's Honchkrow around the dome of Sacré-Cœur, taking a cut along one wing.",
     firstAppearance:"EP09", status:"With Batiste", added:"2026-10-06" },
   { id:"voss-metagross", name:"Metagross", species:"metagross", trainer:"voss", gender:"Genderless",
-    moves:[], desc:"Analytical, silent, and always watching the Beast Ball. Voss wears its ball on her wrist.",
+    moves:["Meteor Mash"], desc:"Analytical, silent, and always watching the Beast Ball. Voss wears its ball on her wrist. At the gala ([[episode:EP21]]) it Mega Evolved, and its Meteor Mash cracked the Prism Core.",
     firstAppearance:"EP09", status:"With Voss", added:"2026-10-06" },
   { id:"hale-dusclops", name:"Dusclops", species:"dusclops", trainer:"hale", gender:"",
     moves:[], desc:"Dr. Hale's partner at Highgate. It never stopped staring at Nova's backpack.",
@@ -73,7 +73,7 @@ WIKI.pokemon.push(
     moves:[], desc:"An artificial Pokémon for a man building artificial light. Projects data on the walls of Verane's study.",
     firstAppearance:"EP05", status:"With Verane", added:"2026-10-06" },
   { id:"lumen-honchkrow", name:"Honchkrow (Lumen Meridian)", species:"honchkrow", trainer:"mara", gender:"",
-    moves:[], desc:"Lumen Meridian's Honchkrow. It fought Batiste's Staraptor over Montmartre and later watched the barge from a crane on the canal with Mara.",
+    moves:[], desc:"Lumen Meridian's Honchkrow. It fought Batiste's Staraptor over Montmartre and later watched the barge from a crane on the canal with Mara. Mara's team at the gala included it ([[episode:EP21]]).",
     firstAppearance:"EP16", status:"Lumen Meridian", added:"2026-10-06" },
   { id:"marchand-chandelure", name:"Chandelure (La Lanterne)", species:"chandelure", trainer:"marchand", gender:"",
     moves:["Smog","Will-O-Wisp","Minimize","Hex","Shadow Ball"],
@@ -81,5 +81,19 @@ WIKI.pokemon.push(
     firstAppearance:"EP20", status:"With Marchand", added:"2026-10-06" },
   { id:"reid-gyarados", name:"Gyarados (Reid)", species:"gyarados", trainer:"reid", gender:"",
     moves:["Crunch","Waterfall"], desc:"Callum Reid's Gyarados, Mega Evolved at the exhibition.",
-    firstAppearance:"EP20", status:"With Reid", added:"2026-10-06" }
+    firstAppearance:"EP20", status:"With Reid", added:"2026-10-06" },
+
+  // ── GALA (EP21) ──
+  { id:"lucien-zoroark", name:"Zoroark (Hisuian)", species:"zoroark-hisui", trainer:"lucien", gender:"",
+    moves:[], desc:"Lucien's Hisuian Zoroark. At the gala it filled the room with illusions of hundreds of Novas while Lucien dropped from the glass roof ([[episode:EP21]]).",
+    firstAppearance:"EP21", status:"With Lucien", added:"2026-10-06" },
+  { id:"mara-pyroar", name:"Pyroar", species:"pyroar", trainer:"mara", gender:"",
+    moves:["Flamethrower"], desc:"Mara's Pyroar. Its Flamethrower at the gala was absorbed by Nova's Litwick, which revealed Litwick's Flash Fire ([[episode:EP21]]).",
+    firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" },
+  { id:"theo-houndoom", name:"Houndoom", species:"houndoom", trainer:"theo", gender:"",
+    moves:[], desc:"Theo's Houndoom. Part of Lumen Meridian's attack at the gala ([[episode:EP21]]).",
+    firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" },
+  { id:"theo-liepard", name:"Liepard", species:"liepard", trainer:"theo", gender:"",
+    moves:[], desc:"Theo's Liepard. Part of Lumen Meridian's attack at the gala ([[episode:EP21]]).",
+    firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" }
 );
