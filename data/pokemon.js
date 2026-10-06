@@ -2,8 +2,84 @@
 // Fields: id, name, species (id from species.js), trainer (character id), gender, ability,
 //         moves[], desc, firstAppearance, status, image, added
 WIKI.pokemon.push(
-  { id:"sparky", name:"Partner", species:"pikachu", trainer:"protagonist", gender:"?", ability:"Static",
-    moves:["Thunderbolt","Quick Attack"],
-    desc:"The loyal partner who sparks with anticipation at the start of the journey.",
-    firstAppearance:"S01E01", status:"With trainer", added:"2026-10-06" }
+
+  // ── NOVA ──
+  { id:"necrozma", name:"Necrozma", species:"necrozma", trainer:"nova", gender:"Genderless", ability:"Prism Armor",
+    moves:["Prismatic Laser"],
+    desc:"Nova's official, classified starter (League case G-114). Once a being of pure light over Ultra Megalopolis, it lost its light to people who took it. Lumen Meridian caught it in a Beast Ball in Ultra Space and drained it, until it broke out, burned its last light to tear open a wormhole, and crashed in the woods behind Nova's house. It's proud, ancient, in constant pain, deeply suspicious of humans, and always hungry for light. It doesn't speak; its glow, its hum, the clicks of its prisms and the feelings that bleed into Nova say everything. Its cracks are slowly filling with gold. Trust so far: it goes into the ball when asked, comes out when called, protected Nova on the Euston Road, gave light to a starving Litwick, chose to show her the lantern, bowed to her mother, and showed her what it used to be.",
+    firstAppearance:"EP01", status:"With Nova (conditional registration)", added:"2026-10-06" },
+
+  { id:"nova-litwick", name:"Litwick", species:"litwick", trainer:"nova", gender:"Female", ability:"Not yet revealed",
+    moves:["Ember","Astonish","Smog"],
+    desc:"The tiny, starving runt of the Highgate Cemetery colony. When the others swarmed, it drifted to Nova's hair clip instead, and Necrozma pulsed its own glow so the little flame could catch. It tapped Nova's Poké Ball on its own. It lost its first battle to Jax's Pawmi in forty-eight seconds, and is learning from Ms. Batiste to fight small and smart: hiding in Smog, dimming its flame, waiting. After watching La Lanterne's Mega Chandelure, it hasn't stopped glowing. It also serves as a private light source for Necrozma, which Necrozma tolerates.",
+    firstAppearance:"EP06", status:"With Nova", added:"2026-10-06" },
+
+  // ── SORA ──
+  { id:"iwanko", name:"Iwanko", species:"rockruff", trainer:"sora", gender:"", ability:"Own Tempo",
+    moves:["Tackle","Rock Throw"],
+    desc:"Sora's starter, called by its Japanese name. A scrappy, loyal pup that runs with him and reads his body language. It growled at Nova's backpack the moment they met at Heathrow.",
+    firstAppearance:"EP03", status:"With Sora", added:"2026-10-06" },
+  { id:"sora-eevee", name:"Eevee", species:"eevee", trainer:"sora", gender:"",
+    moves:[],
+    desc:"A wild Eevee that outsmarted every trainer in Paris for a month. It walked right up to Nova, then chose Sora, the one who chased it for four hours and never quit. Owns a tiny purple Kalos League scarf.",
+    firstAppearance:"EP12", status:"With Sora", added:"2026-10-06" },
+
+  // ── LUCIEN ──
+  { id:"absol", name:"Absol", species:"absol", trainer:"lucien", gender:"",
+    moves:[],
+    desc:"Lucien's main partner, registered in 2023 as a rescue from Cumbria. Absol appear before disaster, and this one always seems to know first. Its leg was injured in the Montmartre escape and is healing.",
+    firstAppearance:"EP05", status:"With Lucien (injured)", added:"2026-10-06" },
+  { id:"lucien-corviknight", name:"Corviknight", species:"corviknight", trainer:"lucien", gender:"",
+    moves:[],
+    desc:"Lucien's ride. It caught the falling taxi on the Euston Road and flew Faure out over Montmartre.",
+    firstAppearance:"EP08", status:"With Lucien", added:"2026-10-06" },
+
+  // ── COHORT ──
+  { id:"journee-pichu", name:"Pichu", species:"pichu", trainer:"journee", gender:"Female",
+    moves:[], desc:"Tiny, dramatic, and shocks Journee's ear every thirty seconds. Journee says she's perfect and that she hates her.",
+    firstAppearance:"EP03", status:"With Journee", added:"2026-10-06" },
+  { id:"kennedy-riolu", name:"Riolu", species:"riolu", trainer:"kennedy", gender:"",
+    moves:[], desc:"Kennedy's starter: a fighter with something to prove, like her.", status:"With Kennedy", added:"2026-10-06" },
+  { id:"jax-pawmi", name:"Pawmi", species:"pawmi", trainer:"jax", gender:"",
+    moves:[], desc:"Fast, loud, and a natural on camera. Beat Nova's Litwick in forty-eight seconds on the Champ de Mars.",
+    firstAppearance:"EP13", status:"With Jax", added:"2026-10-06" },
+  { id:"bia-fuecoco", name:"Fuecoco", species:"fuecoco", trainer:"bia", gender:"",
+    moves:[], desc:"Bia's Fuecoco. Snores, and eats dropped frites off the pavement.",
+    firstAppearance:"EP13", status:"With Bia", added:"2026-10-06" },
+  { id:"waffle", name:"Waffle", species:"growlithe", trainer:"boogie", gender:"",
+    moves:[], desc:"Boogie's Growlithe. Steals bagels, wears a tiny Paris Saint-Germain jersey, and keeps trying to eat Boogie's Applin.",
+    firstAppearance:"EP03", status:"With Boogie", added:"2026-10-06" },
+  { id:"boogie-applin", name:"Applin", species:"applin", trainer:"boogie", gender:"",
+    moves:[], desc:"A tiny apple Pokémon Boogie picked up in Galar, apparently by accident. It hides in his snacks.",
+    firstAppearance:"EP14", status:"With Boogie", added:"2026-10-06" },
+  { id:"wren-dreepy", name:"Dreepy", species:"dreepy", trainer:"wren", gender:"",
+    moves:[], desc:"The rarest Pokémon in the Hampton Roads Starter Reserve. It fled the area near Nova before anything else did, then chose Wren.",
+    status:"With Wren", added:"2026-10-06" },
+
+  // ── ADULTS ──
+  { id:"batiste-staraptor", name:"Staraptor", species:"staraptor", trainer:"batiste", gender:"",
+    moves:[], desc:"Batiste's old Ranger partner. It dove out of the night over Montmartre and fought Lumen's Honchkrow around the dome of Sacré-Cœur, taking a cut along one wing.",
+    firstAppearance:"EP09", status:"With Batiste", added:"2026-10-06" },
+  { id:"voss-metagross", name:"Metagross", species:"metagross", trainer:"voss", gender:"Genderless",
+    moves:[], desc:"Analytical, silent, and always watching the Beast Ball. Voss wears its ball on her wrist.",
+    firstAppearance:"EP09", status:"With Voss", added:"2026-10-06" },
+  { id:"hale-dusclops", name:"Dusclops", species:"dusclops", trainer:"hale", gender:"",
+    moves:[], desc:"Dr. Hale's partner at Highgate. It never stopped staring at Nova's backpack.",
+    firstAppearance:"EP06", status:"With Hale", added:"2026-10-06" },
+  { id:"laval-gardevoir", name:"Gardevoir", species:"gardevoir", trainer:"laval", gender:"Female",
+    moves:[], desc:"Dr. Laval's Gardevoir. Very sensitive to pain, it felt Necrozma the moment Nova walked in.",
+    firstAppearance:"EP17", status:"With Laval", added:"2026-10-06" },
+  { id:"verane-porygon-z", name:"Porygon-Z", species:"porygon-z", trainer:"elias-verane", gender:"Genderless",
+    moves:[], desc:"An artificial Pokémon for a man building artificial light. Projects data on the walls of Verane's study.",
+    firstAppearance:"EP05", status:"With Verane", added:"2026-10-06" },
+  { id:"lumen-honchkrow", name:"Honchkrow (Lumen Meridian)", species:"honchkrow", trainer:"mara", gender:"",
+    moves:[], desc:"Lumen Meridian's Honchkrow. It fought Batiste's Staraptor over Montmartre and later watched the barge from a crane on the canal with Mara.",
+    firstAppearance:"EP16", status:"Lumen Meridian", added:"2026-10-06" },
+  { id:"marchand-chandelure", name:"Chandelure (La Lanterne)", species:"chandelure", trainer:"marchand", gender:"",
+    moves:["Smog","Will-O-Wisp","Minimize","Hex","Shadow Ball"],
+    desc:"Élodie Marchand's partner. At the Mega Exhibition it beat a Mega Gyarados with smog, a dimmed flame, burns and Hex, then Mega Evolved into a crown of black iron and blue fire, and nodded to Nova's Litwick in the stands.",
+    firstAppearance:"EP20", status:"With Marchand", added:"2026-10-06" },
+  { id:"reid-gyarados", name:"Gyarados (Reid)", species:"gyarados", trainer:"reid", gender:"",
+    moves:["Crunch","Waterfall"], desc:"Callum Reid's Gyarados, Mega Evolved at the exhibition.",
+    firstAppearance:"EP20", status:"With Reid", added:"2026-10-06" }
 );

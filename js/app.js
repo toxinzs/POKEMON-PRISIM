@@ -10,6 +10,9 @@ const art=dex=>`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites
 const sprite=dex=>`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${dex}.png`;
 const ordered=()=>[...W.episodes].sort((a,b)=>a.season-b.season||a.num-b.num);
 const epLabel=e=>`${EW} ${e.num}`;
+const SW=C.seasonWord||'Season';
+const arcName=s=>C.seasonNames?.[s]||SW+' '+s;
+const jpLine=e=>e.jpTitle?`<div class="jp">${esc(e.jpTitle)}${e.romaji?` · <i>${esc(e.romaji)}</i>`:''}</div>`:'';
 const get=(type,id)=>byId(W[T[type]],id);
 
 // ---- wiki links: [[type:id|label]] ----
@@ -48,7 +51,7 @@ function sidebar(){
   return `<div class="widget"><h3>Trainer Profile</h3><div class="profile">
     <div class="avatar">${ch&&ch.image?`<img src="${esc(ch.image)}" style="width:100%;height:100%;border-radius:50%;object-fit:cover">`:esc((ch?.name||'?')[0])}</div>
     <div><strong>Name:</strong> ${ch?`<a href="#/character/${ch.id}">${esc(ch.name)}</a>`:'?'}<br>
-    <strong>Badges:</strong> ${t.badges??0} / ${t.totalBadges??8}<br><strong>Region:</strong> ${esc(t.region||'?')}</div></div></div>
+    ${t.badges!=null?`<strong>Badges:</strong> ${t.badges} / ${t.totalBadges??8}<br>`:''}<strong>Region:</strong> ${esc(t.region||'?')}${(t.rows||[]).map(r=>`<br><strong>${esc(r[0])}:</strong> ${esc(r[1])}`).join('')}</div></div></div>
     <div class="widget"><h3>Current Party</h3><div class="party-grid">${slots}</div></div>
     <div class="widget"><h3>Latest ${EWS}</h3>${ordered().slice(-3).reverse().map(e=>`<div><a href="#/episode/${e.id}">${epLabel(e)}: ${esc(e.title)}</a></div>`).join('')||'<p class="empty-note">Nothing yet.</p>'}</div>`;
 }
@@ -66,8 +69,8 @@ function episodes(){
   let h=`<h2 class="title">${EW} List</h2>`;
   if(!seasons.length) h+='<p class="empty-note">No episodes yet.</p>';
   seasons.forEach(s=>{
-    h+=`<h3 class="sec">${esc(C.seasonNames?.[s]||'Season '+s)}</h3><table><tr><th>#</th><th>${EW}</th><th>Date</th><th>Summary</th></tr>`;
-    ordered().filter(e=>e.season===s).forEach(e=>{h+=`<tr><td>${e.num}</td><td><a href="#/episode/${e.id}">${esc(e.title)}</a>${newTag(e)}</td><td>${esc(e.airDate||'')}</td><td>${esc(e.summary||'')}</td></tr>`});
+    h+=`<h3 class="sec">${esc(arcName(s))}</h3>${C.seasonDesc?.[s]?`<p>${esc(C.seasonDesc[s])}</p>`:''}<table><tr><th>#</th><th>${EW}</th><th>Date</th><th>Summary</th></tr>`;
+    ordered().filter(e=>e.season===s).forEach(e=>{h+=`<tr><td>${e.num}</td><td><a href="#/episode/${e.id}">${esc(e.title)}</a>${newTag(e)}${jpLine(e)}</td><td>${esc(e.airDate||'')}</td><td>${esc(e.summary||'')}</td></tr>`});
     h+='</table>';
   });
   return {html:h};
@@ -77,10 +80,10 @@ function episode(id){
   const all=ordered(), i=all.indexOf(e), prev=all[i-1], next=all[i+1];
   const sec=(t,b)=>`<h3 class="sec">${t}</h3>${b}`;
   const img=e.image?`<img src="${esc(e.image)}" alt="">`:'<div class="ph" style="margin:auto;border-radius:12px;width:100%;height:120px;font-size:1rem">No image yet</div>';
-  return {side:true,html:`<div class="crumbs"><a href="#/episodes">${EWS}</a> › ${esc(C.seasonNames?.[e.season]||'Season '+e.season)}</div>
-  <h2 class="title">${epLabel(e)}: ${esc(e.title)}</h2>
+  return {side:true,html:`<div class="crumbs"><a href="#/episodes">${EWS}</a> › ${esc(arcName(e.season))}</div>
+  <h2 class="title">${epLabel(e)}: ${esc(e.title)}</h2>${jpLine(e)}
   <div class="infobox"><div class="ih">${esc(e.title)}</div><div class="ib">${img}</div><table>
-    <tr><th>${EW}</th><td>${e.num}</td></tr><tr><th>Season</th><td>${e.season}</td></tr>
+    <tr><th>${EW}</th><td>${e.num}</td></tr>${e.jpTitle?`<tr><th>Japanese</th><td>${esc(e.jpTitle)}</td></tr>`:''}<tr><th>${esc(SW)}</th><td>${esc(arcName(e.season))}</td></tr>
     <tr><th>Date</th><td>${esc(e.airDate||'TBA')}</td></tr><tr><th>Code</th><td>${esc(e.id)}</td></tr></table></div>
   ${sec('Synopsis',paras(e.synopsis)||'<p class="empty-note">Synopsis coming soon.</p>')}
   ${e.story&&e.story.length?sec('Read the '+EW,`<div class="story read">${paras(e.story)}</div>`):''}
@@ -146,7 +149,7 @@ function search(q){
   q=decodeURIComponent(q||'').toLowerCase().trim();
   const hits=[];
   const add=(kind,label,arr,fields)=>arr.forEach(o=>{if(fields.some(f=>String(o[f]||'').toLowerCase().includes(q))||JSON.stringify(o.synopsis||o.desc||'').toLowerCase().includes(q))hits.push({u:`${kind}/${o.id}`,t:o.name||o.title,k:label})});
-  if(q){add('episode',EW,W.episodes,['title','summary']);add('character','Character',W.characters,['name','role']);add('pokemon','Pokémon',W.pokemon,['name','species']);add('species','Species',W.species,['name','category','types']);add('location','Location',W.locations,['name','region'])}
+  if(q){add('episode',EW,W.episodes,['title','summary','jpTitle','romaji']);add('character','Character',W.characters,['name','role']);add('pokemon','Pokémon',W.pokemon,['name','species']);add('species','Species',W.species,['name','category','types']);add('location','Location',W.locations,['name','region'])}
   return {html:`<h2 class="title">Search: “${esc(q)}”</h2>${hits.length?'<table>'+hits.map(h=>`<tr><td><a href="#/${h.u}">${esc(h.t)}</a></td><td>${esc(h.k)}</td></tr>`).join('')+'</table>':'<p class="empty-note">No results.</p>'}`};
 }
 const nf=()=>({html:'<h2 class="title">Page not found</h2><p>This page doesn\'t exist yet. <a href="#/">Go home</a>.</p>'});

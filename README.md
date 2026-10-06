@@ -1,4 +1,4 @@
-# Pokémon Prism Wiki
+# Pokémon: Prism Wiki
 
 A fan-made, Bulbapedia-style wiki for the series. Plain HTML/CSS/JS, so there's no build step. Open `index.html`, or host it on GitHub Pages.
 
@@ -7,14 +7,14 @@ Everything lives in `data/`. Copy an existing entry, change it, and save.
 
 | File | What it holds |
 |---|---|
-| `config.js` | Title, tagline, "Chapter" vs "Episode" wording, season names, sidebar trainer + party |
-| `episodes.js` | One entry per episode (summary, synopsis, full story text, cast, trivia, quotes) |
+| `config.js` | Title, tagline, "Episode" wording, arc names + descriptions (`seasonNames`, `seasonDesc`, `seasonWord`), sidebar trainer + party |
+| `episodes.js` | One entry per episode (`season` = arc number, English `title`, `jpTitle` + `romaji`, summary, synopsis, optional full story text, cast, trivia, quotes) |
 | `characters.js` | Characters |
 | `pokemon.js` | Individual Pokémon owned by characters |
 | `species.js` | Species / Pokédex (real ones auto-load art by `dex` number; fan-made species use `fanmade:true` + `image`) |
 | `locations.js` | Towns, routes, gyms |
 
-Link anything inside text with `[[type:id|label]]`, e.g. `[[character:protagonist|Ash]]`, `[[pokemon:sparky]]`, `[[species:pikachu]]`, `[[location:route-1]]`, `[[episode:S01E01]]`.
+Link anything inside text with `[[type:id|label]]`, e.g. `[[character:protagonist|Ash]]`, `[[pokemon:sparky]]`, `[[species:pikachu]]`, `[[location:route-1]]`, `[[episode:EP01]]`.
 
 Put images in an `images/` folder and reference them with `image:"images/name.png"`.
 Pages (infoboxes, appearance lists, prev/next, search, recent updates) are generated automatically.

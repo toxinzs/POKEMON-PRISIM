@@ -81,3 +81,6 @@ blockquote{margin:8px 0;padding:6px 14px;border-left:3px solid var(--poke-yellow
   .infobox{float:none;width:100%;margin:0 0 16px}
   main{padding:20px}
 }
+
+/* Japanese episode titles */
+.jp{font-size:.85em;opacity:.75;margin:.15em 0 .4em}
