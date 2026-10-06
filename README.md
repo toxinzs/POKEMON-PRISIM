@@ -8,7 +8,7 @@ Everything lives in `data/`. Copy an existing entry, change it, and save.
 | File | What it holds |
 |---|---|
 | `config.js` | Title, tagline, "Chapter" vs "Episode" wording, season names, sidebar trainer + party |
-| `episodes.js` | One entry per chapter/episode (summary, synopsis, full story text, cast, trivia, quotes) |
+| `episodes.js` | One entry per episode (summary, synopsis, full story text, cast, trivia, quotes) |
 | `characters.js` | Characters |
 | `pokemon.js` | Individual Pokémon owned by characters |
 | `species.js` | Species / Pokédex (real ones auto-load art by `dex` number; fan-made species use `fanmade:true` + `image`) |
@@ -18,3 +18,7 @@ Link anything inside text with `[[type:id|label]]`, e.g. `[[character:protagonis
 
 Put images in an `images/` folder and reference them with `image:"images/name.png"`.
 Pages (infoboxes, appearance lists, prev/next, search, recent updates) are generated automatically.
+
+## Hosting
+Pushing to `main` deploys the site to GitHub Pages automatically (`.github/workflows/pages.yml`).
+Live at: https://toxinzs.github.io/pokemon-prisim/

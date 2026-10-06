@@ -1,4 +1,4 @@
-// CHAPTERS / EPISODES. Add a new object to the end each time you publish one.
+// EPISODES. Add a new object to the end each time you release one.
 // Fields: id ("S01E02"), season, num, title, airDate, summary (1-2 lines for lists),
 //   story[] (the full text, one string per paragraph – optional), synopsis[] (recap, supports
 //   [[character:id|label]], [[pokemon:id]], [[species:id]], [[location:id]], [[episode:id]]),
@@ -15,6 +15,6 @@ WIKI.episodes.push(
       "Ahead lay Route 1, a winding path of tall grass, wild encounters, and the first steps toward becoming a Pokémon Master..."
     ],
     characters:["protagonist"], pokemon:["sparky"], species:["pikachu","pidgey"], locations:["hometown","route-1"],
-    trivia:["First chapter of the series."], quotes:["\"Come on, let's go!\" — The hero"],
+    trivia:["First episode of the series."], quotes:["\"Come on, let's go!\" — The hero"],
     added:"2026-10-06" }
 );

@@ -12,5 +12,5 @@ WIKI.species.push(
     evolvesFrom:"pikachu", added:"2026-10-06" },
   { id:"pidgey", name:"Pidgey", dex:16, types:["Normal","Flying"], category:"Tiny Bird Pokémon",
     height:"0.3 m", weight:"1.8 kg", abilities:["Keen Eye","Tangled Feet"],
-    desc:"Its cries are heard at dawn over the hills in Chapter 1.", firstAppearance:"S01E01", added:"2026-10-06" }
+    desc:"Its cries are heard at dawn over the hills in Episode 1.", firstAppearance:"S01E01", added:"2026-10-06" }
 );
