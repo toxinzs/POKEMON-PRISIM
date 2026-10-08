@@ -1,0 +1,120 @@
+Paste this whole block into the new chat, which should be started inside the REAL WORLD POKEMON Project.
+
+---
+
+HANDOFF GUIDE: PLANNING ROOM + WIKI BUILDER FOR POKÉMON: PRISM
+
+You have no prior context, so read this fully before doing anything.
+
+1. WHO YOU ARE WORKING WITH AND WHAT THIS CHAT IS
+
+The user is Mason, from Hampton, Virginia. He runs a long original fiction series called POKÉMON: PRISM. It is set on real modern Earth, where Pokémon have always existed. It is not isekai and not a game world. Regions map to real geography (Kalos is France, Kanto is Japan's Kantō, Galar is the UK, and so on).
+
+The episodes are written in a SEPARATE chat titled "POKÉMON PRISM" (id 8f0b1f58-bbcb-4c1b-a3da-33873ed5b472). Claude writes the episodes there and Mason directs.
+
+This chat is the PLANNING ROOM. It does four jobs:
+(a) brainstorming and lore decisions;
+(b) reviewing the newest episode after he writes it;
+(c) writing plain-text story notes and guides that Mason pastes into the episode chat;
+(d) building and maintaining the fan wiki (see section 9).
+
+DO NOT WRITE EPISODES IN THIS CHAT. Do not write story scenes here at all.
+
+2. HOW TO TALK TO MASON
+
+- Questions get BRIEF, straight-to-the-point answers. He is casual, types fast and with typos, so read for intent. If he says "yes" or "continue," carry on with the last offered step.
+- Long, detailed, narrated prose is for story writing only, and that happens in the episode chat, not here.
+- Anything for the writing chat must be PLAIN TEXT he can copy and paste. He does NOT want to hand the writing chat documents or files. Never give him a file for it.
+- Story rules (for notes you write for the episode chat): full scenes shown in real time with no summarizing; AAVE/Black vernacular as the default voice for Black characters; real brand names and exact model specifics (for example "iPhone 17 Pro Max Deep Blue"); automatic realistic visual mockups for texts, emails, social posts, forms and app UIs; no moralizing, no neat wrap-ups, no meta-commentary; scenes end with "Next up — [concrete tease]". Mature tone.
+- Don't narrate your memory use or thinking. Be efficient.
+- Mason gets frustrated by long chats that compact, so keep work in phases with check-ins.
+
+3. THE PROJECT DOCS (read these with project_read; do not search the local disk for them)
+
+- "POKÉMON PRISIM. 2 (refer to this for updated ..." (the title is cut off). This is the CONTINUITY GUIDE v2, the source of truth through about Ep 21. It holds the cast, the episode log and the rules.
+- "POKEMON PRISM 1." This is the original v1 guide. Use it ONLY for its writing samples.
+- claude/arc-3-guide.md is the Arc 3 (Kanto) direction guide.
+- claude/pacing-map.md is the long-range pacing map. It includes the Solgaleo endgame, which is NEVER given to the writing chat.
+- The Arc 3 guide and the pacing map have NOT yet been updated with Ep 24–25 facts. Update them only if Mason approves.
+
+Past episode chats are for exact wording or Ep 22+ detail only. Use the conversation_search and read_conversation tools on chat id 8f0b1f58-bbcb-4c1b-a3da-33873ed5b472. Reading is heavy, so a subagent can read large sections and write fact sheets for you.
+
+4. THE PREMISE (LOCKED)
+
+- A student finishes a first-semester school Pokémon course and enters a League-backed Student Field Program (February through summer) in random groups of 2–3, paired across the worldwide program of a couple thousand students.
+- The protagonist is Novalee "Nova" Kealoha, 14, from Newport News, VA. She is Black with Native Hawaiian heritage on her dad's side. She wears a half-up pony with honey-amber streaks and a Necrozma crystal-shard hair clip. Her palette is black, purple and cyan. She is hopeful, confident, talkative and curious, and her flaw is optimism that slides into denial.
+- Necrozma arrived the night before Encounter Day, so Nova missed her starter slot. It is genderless and is ALWAYS "it," never "him," even in dialogue.
+- Necrozma was captured in Ultra Space by Lumen Meridian, a clean-energy company founded by ex-Aether scientists and sponsor of the field program. Aether is a red herring (mostly).
+- Format rules: Japanese-first episode titles (kana/kanji, then romaji, then an accurate English translation). Episodes are numbered continuously with no seasons, split into named English arcs. Screenplay-style, no acts. RP header format: Day, Month Day, Year | Location, ZIP | Time.
+- Pokémon get scanned with the Pokédex (their Rotom phones) and shown as a scan visual. Rotom Phones are Rotom-derived tech and do NOT contain a live Rotom. Pokémon make realistic anime-style sounds as dialogue.
+- Moves work like the anime, not strictly like the games. Pokémon can have 5 moves. New moves often grow out of moves they already have.
+- Teams are capped at 3–4 Pokémon each, and extras go to League sanctuaries. Evolutions come roughly 30–50 episodes apart, with exceptions for near-useless Pokémon. Characters do NOT plan, count or know their evolutions, as in the anime. Evolutions should happen on screen. A series well over 100 episodes is expected, so nothing gets rushed.
+- From Arc 2 on it should feel more like the Pokémon anime: adventure, mystery and fun mixed with heavy beats. Mason has said the program and mission side has been thin under the plot, so bring back real field work.
+- Pokémon-focused episodes are where that Pokémon develops (an evolution, a new strategy, a new or stronger move). Sora must not count Rage Fist uses.
+- License system: PTL (Provisional Trainer License). Full license at 18. Carry limit of 6. FieldHub is the program app, the League Field Card is the debit card, and the stipend is $500–700 a week.
+
+5. CAST AND TEAMS (through Ep 25)
+
+- NOVA: Necrozma in Beast Ball BB-04 (node 7F-22). Litwick (no nickname, ability Flash Fire). Litwick's moves are Ember, Astonish, Smog and Minimize. "Dim" is NOT an official move; Litwick just does it. It lost to Jax's Pawmi in 48 seconds in Ep 13 and beat Pawmi after learning Minimize in Ep 23. It wins through size, Ghost traits, environment and tricks, and it won't reach Lampent before Arc 3. Planned future Pokémon: an alpha Hisuian Sliggoo, late Arc 3 or early Arc 4, big but timid and afraid of storms, with the Goodra evolution tied to rain and fog; and Popplio, who must arrive mid-Arc 3 in a way that makes sense. Nova gets her next Pokémon BEFORE Sora gets his.
+- SORA Takeda (Black and Japanese, moved from Hampton to Tokyo/Hachiōji, turned 16 on Mar 3, 2027): Iwanko (Rockruff, Own Tempo, fast and impulsive, kicks up dirt, evolves at golden hour, with Dusk Lycanroc planned on Mt. Takao); Eevee (caught in Ep 12, wears a purple Kalos League scarf); catch count is 7. He catches everything and ignores capture zones. He wears Rotom-powered Meta glasses. His Morpeko catch FAILED in Ep 24. Planned: Mankey becomes Primeape inside a sanctuary and later Annihilape; Sprigatito goes to a sanctuary, and Meowscarada goes to Journee later; a shiny Hisuian Braviary later. His Cosmog is a Goh/Mew-style chase and stays unresolved. His gimmick is Z-Moves in Alola.
+- LUCIEN Verane (British-French, son of Dr. Elias Verane): Absol (Mega Absol / Mega Absol Z planned), Corviknight, and a female Hisuian Zoroark stolen from his father's annex at Lac d'Annecy in November 2026. She is unnamed, unregistered, and kept in a wood-grain Hisuian-style ball. He has no PTL. His mother Simone died around 2025. He loosely orbits the group.
+- Dr. ELIAS VERANE: founder and CEO of Lumen Meridian, the main antagonist. He compliments Nova's hair clip every time.
+- RACHEL BATISTE: Nova's chaperone and guardian signatory, 44, from New Orleans, a former Ranger with a limp. She stays in Paris in Arc 3.
+- Agent ADRIENNE VOSS: the League/URD liaison. She is suspended after the Grand Palais, in Paris at the Pullman Bercy. She knows about Takao 2019 and her Moleskine shows "Field lead: T.O-H."
+- Director THOMAS OKONKWO-HALE: League Director, now interim liaison. He has daily 9 AM check-ins with both cameras on, and he is tied to Takao 2019 and file K-19-0812.
+- Dr. FAURE (family friend "Tante Mireille" to Lucien): built the black band that contains Necrozma, with a 2 mm seam in the shielding. She is at Flat 5G, 22 Rue de Lancry, Paris 10e. She copied the evidence three times.
+- Kealoha family: DANI (mother, nurse, set four conditions), NOA (father, Dominion Energy; his subcontract installed GridSense), PAPA K / Keoni (grandfather, 71, Hidenwood; holds the third drive in a gun safe), LANI, KOA.
+- Hampton Roads cohort: JOURNEE (Pichu, will get Meowscarada), KENNEDY Price (rival, age 14, Riolu, landed at Orly in Ep 25), JAX Reyes (Pawmi, TikToker), BIA Carvalho (São Paulo, referee, Fuecoco), BOOGIE Holloway (Growlithe "Waffle," Applin→Hydrapple), WREN (Aether-tied; Dreepy; betrayed her aunt to Laval).
+- Aether: Dr. HENRI LAVAL (Director Europe; Gardevoir; withdrew the claim on BB-04 and loaned the ball), Dr. FIONA CALLAHAN (on administrative leave).
+- Others: Madame SOLÈNE BRISSAC (71, Maison Brissac, Rue des Rosiers, lent Nova a Saint Laurent blazer), Me HÉLÈNE DUVIVIER (League lawyer), CALVIN ASHBY (field coordinator, Suffolk VA).
+- Ep 25 introduced a new cohort of Hampton Roads kids (Mercier, Tobi, MJ Park, Tariq, Ayanna, Tae, Mariah, Isaiah, Brielle, Caleb). Check the wiki characters and pokemon data for their Pokémon.
+
+6. KEY CANON, EPISODES 1–25 (high level; detail is in the continuity guide and the wiki)
+
+ARC 1 "Starfall" (Eps 1–10): Necrozma crashes behind the Kealoha house (Feb 1, 2027, 9:39 PM). Encounter Day: every starter runs from Nova. Kickoff at CNU, Verane's speech. Norfolk to Heathrow, meeting Sora, living at Argyle Street, Lucien at the Barbican. Highgate Cemetery, where Litwick chooses Nova. Feb 11: Galar's Darkest Day (Eternatus), triggered by Lumen's Galar Pilot at a Power Spot. Necrozma drains a Corviknight on live stream. Voss briefs Nova, Batiste arrives, and Necrozma is conditionally registered (URD-CR-1) with a League URD chip on the band. Dani arrives and Necrozma bows to her.
+
+ARC 2 "City of Light" (Eps 11–25+): Eurostar to Paris. Sora gets Eevee. Litwick loses to Jax's Pawmi under the Eiffel Tower. Montmartre rooftop chase and the drive. Aether tower, file K-19-0812. Sora tells the Takao story: age 8, lost on Mt. Takao on Aug 12, 2019, led out by a Cosmog; a Class 1 aperture opened at 22:47 JST. The drive opens. Kalos League Mega Exhibition. The Grand Palais gala (Feb 26): the Prism Core drains the room.
+Ep 22 "Three Copies": the Feb 27 review. Aether's claim fails and the ball is loaned. The Kanto trip is approved (MSN-KT-0311, Takao Ranger Station, Hachiōji, starts Sat Mar 20, 2027, about 5 weeks; departure no earlier than Mar 15). Dani's four conditions are in the amendment margin.
+Ep 23 "Get Small, Litwick!": firmware v3.0 changes the ball's pulse from 1/sec to 2/sec. Lucien reveals the Zoroark. Litwick learns Minimize and beats Pawmi.
+Ep 24 "Happy Birthday, Sora": Sora's 16th, the Morpeko, the Métro warning, a box from Hachiōji. Faure opens folder 07 (Galar Pilot log). Folder 06 is still unopened.
+Ep 25 "The Rival Arrives!": Kennedy lands Thu Mar 4, the cohort town hall, and Kennedy challenges Nova to a sanctioned battle Sat Mar 6, 10 AM. The Ep 26 teaser is 波導を読め！ Hadō o Yome! ("Read the Aura!"). Story date as of the end of Ep 25 is Thu Mar 4, 2027.
+
+Unresolved threads: who "M" is and what folder 06 holds; where the other 6 missing BB-series Beast Balls went; Callahan's NY (+1 212) contact; Voss's call to a long-unused contact; the Director's tie to Takao 2019; how Lumen got Ultra Space access; the Cosmog; the League split.
+
+Known continuity oddities noted but NOT changed: Brissac's service history (eleven years as an army nurse in Chad vs forty years as a nurse); the DHL receipt shows Visa ···· 2208 but the dialogue says Chase Sapphire; Sora's "twenty days" (actually 17); Kennedy's age (the wiki now says 14, matching Ep 25).
+
+7. THE PLAN FOR ARC 2's END AND ARC 3 (planning decisions; not canon unless Mason says so)
+
+- Arc 2 wraps in two episodes after Ep 25. Ep 26 is the Kennedy battle. Ep 27 is the Paris wrap-up with a small time skip, ending on the departure from Paris, with a Voss / folder 06 hook. Mason will ask the writing chat whether anything else needs hitting first.
+- Arc 3 is Kanto, Sora's arc. It is just Sora and Nova (Lucien drifts in and out). Batiste says goodbye at the station and stays in Paris with Wren and the gala fallout, reachable by phone. Real program missions come back. The League split, conditional registration and URD chip stay unresolved. Mankey is met early as a running partner, evolves to Primeape in the sanctuary before Sora owns it, and the adoption isn't finished by the end of the arc. Iwanko→Dusk Lycanroc at sunset on Mt. Takao is the first evolution in the series and the arc's emotional peak, kept separate from the Takao light mystery. Eevee gets small moments only. Nova's Sliggoo moves come in order: Protect + Heavy Slam, Shelter, Body Press, Ice Beam last. Popplio arrives mid-arc as a sanctuary transfer from an Oʻahu sanctuary where Papa K's family works, chooses Nova, and its League registration goes through Hale. Use the wider Hampton Roads cohort lightly and often.
+- Long-range, pacing map only: Solgaleo (the Cosmog) may end up with Lucien; the ending resembles Horizons' "Rising Again," with the big Legendaries let free. Chandelure idea: the five moves should include a Ghost STAB, a Fire STAB, Energy Ball, Trick Room or Protect, and Smog.
+
+8. WHAT CARRIES BETWEEN CHATS
+
+Memory (a persistent file system) holds Mason's story preferences. The Project docs and the wiki hold canon. This guide covers the rest.
+
+9. THE WIKI (the main active task)
+
+- Repo: github.com/toxinzs/POKEMON-PRISIM (GitHub says it has moved to this capitalized name; the old lowercase URL redirects). It is hosted on GitHub Pages and deploys when you push to main. Use the add_repo tool to attach the repo, then clone it, and register it once cloned. The previous session's clone was at /home/claude/pokemon-prisim, which may not exist in a new session.
+- Stack: plain HTML/CSS/JS with NO build step. index.html, css/style.css, js/app.js (a hash router), and data/*.js files that use WIKI.<collection>.push({...}). The collections are characters, pokemon, species, locations, episodes, articles, timeline, and config (arcs, characterGroups). The data currently holds 25 episodes, 48 characters, 39 Pokémon, 44 species, 37 locations, 3 articles and 32 timeline rows.
+- Link syntax inside any text: [[type:id|label]] with types character, pokemon, species, location, episode and article.
+- Optional rich fields on any entry: sections:[{h,p[],list[]}], relationships:[{id or name, rel, note}], timeline:[{date,text,ep}], moveHistory:[{move,ep,note}], battles:[{ep,opponent,result,note}], quotes, trivia. Character infobox extras: aka, birthday, affiliation, family. Pokémon infobox extras: nature, ball. Episodes have plot:[{h,p[]} or string], notes[] and an automatic Debuts list from firstAppearance.
+- WIKI.merge(collection, id, extra) in data/config.js does an Object.assign onto an existing entry. Each depth phase uses its own data file so the originals aren't edited. data/depth-cast.js (Phase 2) is the current example, and any new depth file needs a script tag in index.html.
+- Pages: Home, Episodes, Arcs (#/arc/N), Characters (grouped), Pokémon (grouped), Locations (grouped), Lore articles (#/articles, #/article/id), Timeline (#/timeline), search, and an automatic table of contents on pages with 4+ section headings.
+- To verify before every push: node --check each data file; run a verify script (load the data files in a vm context with window = global, then check for missing link targets, duplicate ids and ungrouped characters); and render-test the routes with Playwright (chromium is at /opt/pw-browsers/chromium, NODE_PATH=$(npm root -g)). Rebuild those helpers if the old scratchpad is gone.
+- Commit trailers (the system will supply the current session link): Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com> plus the Claude-Session line.
+
+WIKI PHASES
+
+1. Site features: DONE and pushed.
+2. Deep pages for the main cast (Nova, Sora, Lucien, Batiste, Voss, Verane, Faure, Necrozma, Litwick, Iwanko, Sora's Eevee): DONE and pushed (commit 19b9923).
+3. Full plot recaps for Eps 1–10 (the Arc 1 episodes): NEXT.
+4. Full plot recaps for Eps 11–20.
+5. Deeper recaps for Eps 21–25, plus lore articles: Lumen Meridian (expand), Aether, the League and URD, the field program, Beast Ball, GridSense, PTL and rules, and Documents (the drive, folders 06 and 07, K-19-0812).
+6. Supporting cast, species and locations: the same depth treatment for everyone else.
+
+Work one phase at a time, tell Mason when each is done, and offer the next. Eps 1–20 detail lives in the continuity guide v2's episode log and in the writing chat; for the deep recaps, read the episodes themselves from the writing chat (a subagent can read them in chunks and return fact sheets). Verify what a subagent returns, because earlier ones made small errors (for example the pack Fletchinder is Faure's Miette, and Brissac's first name is Solène).
+
+10. FIRST MOVE
+
+Tell Mason in one line that you're starting Phase 3. Then attach and clone the repo, read the continuity guide v2 from the Project, pull the Eps 1–10 text from the writing chat, and begin.
