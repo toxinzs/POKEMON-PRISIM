@@ -43,3 +43,11 @@ window.WIKI = {
   },
   species: [], characters: [], pokemon: [], locations: [], episodes: [], articles: [], timeline: []
 };
+
+// Add deeper fields to an existing entry without editing the original file.
+// WIKI.merge("characters","nova",{ sections:[...], relationships:[...] })
+WIKI.merge = function(collection, id, extra){
+  const o = WIKI[collection].find(x => x.id === id);
+  if(!o){ console.warn("merge: no "+collection+"/"+id); return; }
+  Object.assign(o, extra);
+};
