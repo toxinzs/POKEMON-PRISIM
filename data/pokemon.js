@@ -6,22 +6,22 @@ WIKI.pokemon.push(
   // ── NOVA ──
   { id:"necrozma", name:"Necrozma", species:"necrozma", trainer:"nova", gender:"Genderless", ability:"Prism Armor",
     moves:["Prismatic Laser"],
-    desc:"Nova's official, classified starter (League case G-114). Once a being of pure light over Ultra Megalopolis, it lost its light to people who took it. Lumen Meridian caught it in a Beast Ball in Ultra Space and drained it, until it broke out, burned its last light to tear open a wormhole, and crashed in the woods behind Nova's house. It's proud, ancient, in constant pain, deeply suspicious of humans, and always hungry for light. It doesn't speak; its glow, its hum, the clicks of its prisms and the feelings that bleed into Nova say everything. Its cracks are slowly filling with gold. Trust so far: it goes into the ball when asked, comes out when called, protected Nova on the Euston Road, gave light to a starving Litwick, chose to show her the lantern, bowed to her mother, and showed her what it used to be. At the Grand Palais gala ([[episode:EP21]]), when the Prism Core pulled all the light out of the room and the Beast Ball's node turned red and tore out of Nova's pocket, Necrozma burst out with Prism Armor, and went back in when Nova asked. Its memory of Verane's lab answered when she said his name.",
+    desc:"Nova's official, classified starter (League case G-114). Once a being of pure light over Ultra Megalopolis, it lost its light to people who took it. Lumen Meridian caught it in a Beast Ball in Ultra Space and drained it, until it broke out, burned its last light to tear open a wormhole, and crashed in the woods behind Nova's house. It's proud, ancient, in constant pain, deeply suspicious of humans, and always hungry for light. It doesn't speak; its glow, its hum, the clicks of its prisms and the feelings that bleed into Nova say everything. Its cracks are slowly filling with gold. Trust so far: it goes into the ball when asked, comes out when called, protected Nova on the Euston Road, gave light to a starving Litwick, chose to show her the lantern, bowed to her mother, and showed her what it used to be. At the Grand Palais gala ([[episode:EP21]]), when the Prism Core pulled all the light out of the room and the Beast Ball's node turned red and tore out of Nova's pocket, Necrozma burst out with Prism Armor, and went back in when Nova asked. Its memory of Verane's lab answered when she said his name. Afterward it fed on every lamp in Madame Brissac's house and Faure's flat, pushed the shard back into Nova's hand when she tried to return it, lowered its head to Faure's after she apologized for the window she built into its band, and from a Marais rooftop pointed one crystal arm east, toward Japan ([[episode:EP22]], [[episode:EP24]]). Its Beast Ball, BB-04, is now on loan from Aether; the node glows green when it is calm and amber when it is hungry, and since firmware v3.0 it pulses twice a second ([[episode:EP23]]).",
     firstAppearance:"EP01", status:"With Nova (conditional registration)", added:"2026-10-06" },
 
   { id:"nova-litwick", name:"Litwick", species:"litwick", trainer:"nova", gender:"Female", ability:"Flash Fire",
-    moves:["Ember","Astonish","Smog","Dim"],
-    desc:"The tiny, starving runt of the Highgate Cemetery colony. When the others swarmed, it drifted to Nova's hair clip instead, and Necrozma pulsed its own glow so the little flame could catch. It tapped Nova's Poké Ball on its own. It lost its first battle to Jax's Pawmi in forty-eight seconds, and is learning from Ms. Batiste to fight small and smart: hiding in Smog, dimming its flame, waiting. After watching La Lanterne's Mega Chandelure, it hasn't stopped glowing. It also serves as a private light source for Necrozma, which Necrozma tolerates. At the gala ([[episode:EP21]]) it absorbed [[pokemon:mara-pyroar|Pyroar]]'s Flamethrower, and [[character:batiste|Batiste]] named the ability: Flash Fire.",
+    moves:["Ember","Astonish","Smog","Minimize"],
+    desc:"The tiny, starving runt of the Highgate Cemetery colony. When the others swarmed, it drifted to Nova's hair clip instead, and Necrozma pulsed its own glow so the little flame could catch. It tapped Nova's Poké Ball on its own. It lost its first battle to Jax's Pawmi in forty-eight seconds, and is learning from Ms. Batiste to fight small and smart: hiding in Smog, dimming its flame, waiting. After watching La Lanterne's Mega Chandelure, it hasn't stopped glowing. It also serves as a private light source for Necrozma, which Necrozma tolerates. At the gala ([[episode:EP21]]) it absorbed [[pokemon:mara-pyroar|Pyroar]]'s Flamethrower, and [[character:batiste|Batiste]] named the ability: Flash Fire. On March 1, after staring at a pillar candle for two hours, it learned Minimize and beat Jax's Pawmi on the Champ de Mars: “Litwick! Get small!” ([[episode:EP23]]) It still dims its flame to hide, which is a trick it can do rather than a move, and at Sora's birthday it shrank to a one-inch candle on a kouign-amann and refused to be blown out ([[episode:EP24]]).",
     firstAppearance:"EP06", status:"With Nova", added:"2026-10-06" },
 
   // ── SORA ──
   { id:"iwanko", name:"Iwanko", species:"rockruff", trainer:"sora", gender:"", ability:"Own Tempo",
-    moves:["Tackle","Rock Throw"],
-    desc:"Sora's starter, called by its Japanese name. A scrappy, loyal pup that runs with him and reads his body language. It growled at Nova's backpack the moment they met at Heathrow.",
+    moves:["Tackle","Rock Throw","Sand Attack"],
+    desc:"Sora's starter, called by its Japanese name. A scrappy, loyal pup that runs with him and reads his body language. It growled at Nova's backpack the moment they met at Heathrow. In a training bout at Buttes-Chaumont it found a dimmed Litwick by scent through Smog and won ([[episode:EP23]]).",
     firstAppearance:"EP03", status:"With Sora", added:"2026-10-06" },
   { id:"sora-eevee", name:"Eevee", species:"eevee", trainer:"sora", gender:"",
     moves:["Bite"],
-    desc:"A wild Eevee that outsmarted every trainer in Paris for a month. It walked right up to Nova, then chose Sora, the one who chased it for four hours and never quit. Owns a tiny purple Kalos League scarf. It learned Bite during the gala fight ([[episode:EP21]]).",
+    desc:"A wild Eevee that outsmarted every trainer in Paris for a month. It walked right up to Nova, then chose Sora, the one who chased it for four hours and never quit. Owns a tiny purple Kalos League scarf. It learned Bite during the gala fight ([[episode:EP21]]). It wore a purple Kalos League scarf to Sora's birthday party ([[episode:EP24]]).",
     firstAppearance:"EP12", status:"With Sora", added:"2026-10-06" },
 
   // ── LUCIEN ──
@@ -36,12 +36,12 @@ WIKI.pokemon.push(
 
   // ── COHORT ──
   { id:"journee-pichu", name:"Pichu", species:"pichu", trainer:"journee", gender:"Female",
-    moves:[], desc:"Tiny, dramatic, and shocks Journee's ear every thirty seconds. Journee says she's perfect and that she hates her.",
+    moves:[], desc:"Tiny, dramatic, and shocks Journee's ear every thirty seconds. Journee says she's perfect and that she hates her. In Edinburgh it nests in her twist-out and eats Walkers shortbread fingers like corn on the cob ([[episode:EP25]]).",
     firstAppearance:"EP03", status:"With Journee", added:"2026-10-06" },
   { id:"kennedy-riolu", name:"Riolu", species:"riolu", trainer:"kennedy", gender:"",
-    moves:[], desc:"Kennedy's starter: a fighter with something to prove, like her.", status:"With Kennedy", added:"2026-10-06" },
+    moves:[], desc:"Kennedy's starter: a fighter with something to prove, like her. Small, blue-pawed, black-masked, with sharp red eyes, it rides on her shoulder and mirrors her posture. In [[episode:EP25]] it arrived in Paris with her, glared at the “sit down ken” comment on her phone, and locked eyes on Nova's Litwick. Its Fighting moves can't touch a Ghost, and Kennedy says that is what makes the battle fair.", firstAppearance:"EP25", status:"With Kennedy", added:"2026-10-06" },
   { id:"jax-pawmi", name:"Pawmi", species:"pawmi", trainer:"jax", gender:"",
-    moves:["Thunder Shock"], desc:"Fast, loud, and a natural on camera. Beat Nova's Litwick in forty-eight seconds on the Champ de Mars. Used Thunder Shock at the gala ([[episode:EP21]]).",
+    moves:["Quick Attack","Charge","Nuzzle","Thunder Shock"], desc:"Fast, loud, and a natural on camera. Beat Nova's Litwick in forty-eight seconds on the Champ de Mars. Used Thunder Shock at the gala ([[episode:EP21]]). In the March 1 rematch it used Charge to light Litwick's smog shadow, but lost to a shrunken Litwick and ended up with a bandage on its nose ([[episode:EP23]], [[episode:EP24]]).",
     firstAppearance:"EP13", status:"With Jax", added:"2026-10-06" },
   { id:"bia-fuecoco", name:"Fuecoco", species:"fuecoco", trainer:"bia", gender:"",
     moves:[], desc:"Bia's Fuecoco. Snores, and eats dropped frites off the pavement.",
@@ -85,7 +85,7 @@ WIKI.pokemon.push(
 
   // ── GALA (EP21) ──
   { id:"lucien-zoroark", name:"Zoroark (Hisuian)", species:"zoroark-hisui", trainer:"lucien", gender:"",
-    moves:[], desc:"Lucien's Hisuian Zoroark. At the gala it filled the room with illusions of hundreds of Novas while Lucien dropped from the glass roof ([[episode:EP21]]).",
+    moves:[], desc:"Lucien's Hisuian Zoroark: a tall, lean female with white fur, a ragged mane that drifts and glows red at the tips like embers, and teal eyes. He took her from his father's annex near Lac d'Annecy last November, where she lived in a mirrored room; she is unregistered, has no name (“They had a number for her. I wasn't going to give her another thing somebody else picked.”), and lives in a replica Hisuian-style ball. Her illusions bend real light, which is why cameras at the gala showed hundreds of Novas ([[episode:EP21]], [[episode:EP23]]).",
     firstAppearance:"EP21", status:"With Lucien", added:"2026-10-06" },
   { id:"mara-pyroar", name:"Pyroar", species:"pyroar", trainer:"mara", gender:"",
     moves:["Flamethrower"], desc:"Mara's Pyroar. Its Flamethrower at the gala was absorbed by Nova's Litwick, which revealed Litwick's Flash Fire ([[episode:EP21]]).",
@@ -95,5 +95,42 @@ WIKI.pokemon.push(
     firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" },
   { id:"theo-liepard", name:"Liepard", species:"liepard", trainer:"theo", gender:"",
     moves:[], desc:"Theo's Liepard. Part of Lumen Meridian's attack at the gala ([[episode:EP21]]).",
-    firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" }
+    firstAppearance:"EP21", status:"Lumen Meridian", added:"2026-10-06" },
+
+  // ── NEW (EPISODES 22–25) ──
+  { id:"aurore", name:"Aurore", species:"meowstic", trainer:"brissac", gender:"Female",
+    moves:[], desc:"Madame Brissac's slate-blue and white Meowstic. Its ears stay folded unless something is wrong, and its eyes glow when it looks through a door. ([[episode:EP22]])",
+    firstAppearance:"EP22", status:"With Madame Brissac", added:"2026-10-08" },
+  { id:"miette", name:"Miette", species:"fletchinder", trainer:"faure", gender:"Female",
+    moves:[], desc:"Faure's orange-and-gray Fletchinder, named for a breadcrumb (as Lucien jokes, she hasn't forgiven him). “MIETTE” is the password to the encrypted evidence volume. She perches on the balcony rail of Flat 5G with her feathers puffed against the cold, pressed to the glass right behind Lucien's head. ([[episode:EP22]])",
+    firstAppearance:"EP22", status:"With Faure", added:"2026-10-08" },
+  { id:"ashby-slowbro", name:"Slowbro (Ashby)", species:"slowbro", trainer:"ashby", gender:"",
+    moves:[], desc:"Calvin Ashby's Slowbro. It sleeps on a plaid couch behind him on every call, mouth open, with the Shellder on its tail snapping at flies. ([[episode:EP22]])",
+    firstAppearance:"EP22", status:"With Ashby", added:"2026-10-08" },
+  { id:"mercier-mightyena", name:"Mightyena (Mercier)", species:"mightyena", trainer:"mercier", gender:"",
+    moves:[], desc:"Brigadier Mercier's Mightyena, who stood by while Sora was warned on the Saint-Paul platform. ([[episode:EP24]])",
+    firstAppearance:"EP24", status:"With Mercier", added:"2026-10-08" },
+  { id:"tobi-charcadet", name:"Charcadet", species:"charcadet", trainer:"tobi", gender:"",
+    moves:[], desc:"Tobi's small orange-red, candle-shaped Charcadet, with a yellow flame on its head. It sleeps in his arms through an airport. ([[episode:EP25]])",
+    firstAppearance:"EP25", status:"With Tobi", added:"2026-10-08" },
+  { id:"tariq-sandile", name:"Sandile (Tariq)", species:"sandile", trainer:"tariq", gender:"", moves:[],
+    desc:"Sunning on a Cairo parapet during the town hall. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Tariq", added:"2026-10-08" },
+  { id:"ayanna-pikipek", name:"Pikipek (Ayanna)", species:"pikipek", trainer:"ayanna", gender:"", moves:[],
+    desc:"Pecking at a mango on a Rio balcony. Mentioned eleven times in the group chat. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Ayanna", added:"2026-10-08" },
+  { id:"tae-wooper", name:"Wooper (Tae)", species:"wooper", trainer:"tae", gender:"", moves:[],
+    desc:"Asleep on Tae's chest in Sydney. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Tae", added:"2026-10-08" },
+  { id:"mariah-wingull", name:"Wingull (Mariah)", species:"wingull", trainer:"mariah", gender:"", moves:[],
+    desc:"Eyeing a bucket of Chickenjoy from the back of Mariah's chair in a Manila Jollibee. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Mariah", added:"2026-10-08" },
+  { id:"isaiah-snom", name:"Snom (Isaiah)", species:"snom", trainer:"isaiah", gender:"", moves:[],
+    desc:"Curled up in the hood of Isaiah's Canada Goose parka in Reykjavík. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Isaiah", added:"2026-10-08" },
+  { id:"brielle-skwovet", name:"Skwovet (Brielle)", species:"skwovet", trainer:"brielle", gender:"", moves:[],
+    desc:"Running laps around Brielle's laptop in Cape Town. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Brielle", added:"2026-10-08" },
+  { id:"caleb-pidgey", name:"Pidgey (Caleb)", species:"pidgey", trainer:"caleb", gender:"", moves:[],
+    desc:"Caleb's Pidgey, in Vancouver, while he keeps his camera off. ([[episode:EP25]])", firstAppearance:"EP25", status:"With Caleb", added:"2026-10-08" },
+  { id:"gwilym", name:"Gwilym", species:"snorlax", trainer:"pryce", gender:"Male", moves:[],
+    desc:"Mrs. Pryce's old Snorlax at the Argyle Street student house. During the Darkest Day he stood in the courtyard for two hours fighting his own Dynamax-driven body so he wouldn't hurt anyone, while Mrs. Pryce sang to him in Welsh. ([[episode:EP24]])",
+    firstAppearance:"EP08", status:"With Mrs. Pryce", added:"2026-10-08" },
+  { id:"morpeko", name:"Morpeko (wild)", species:"morpeko", gender:"", ability:"Hunger Switch", moves:[],
+    desc:"A wild Galar native loose in the Marais. It stole Madame Brissac's kouign-amann off a windowsill, ate it on a Line 1 platform at Saint-Paul, turned Hangry, spun a wheel of dark lightning and escaped on a train. Sora's Poké Ball wiggled three times and burst open. It is still at large in Paris. ([[episode:EP24]])",
+    firstAppearance:"EP24", status:"Wild (unregistered)", added:"2026-10-08" }
 );

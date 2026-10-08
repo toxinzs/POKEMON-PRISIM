@@ -293,7 +293,8 @@ WIKI.episodes.push(
       "Then the Prism Core pulls every bit of light out of the room. The Beast Ball's node turns red and tears out of Nova's pocket, and [[pokemon:necrozma|Necrozma]] bursts out with Prism Armor. Nova says “Dr. Elias Verane” out loud, and Necrozma's memory answers: There she is. In the memory, from Necrozma's side of Verane's lab, a voice says, “Yield's up eleven percent. Good. Again.”",
       "[[character:mara|Mara]] (Honchkrow, [[pokemon:mara-pyroar|Pyroar]]), [[character:theo|Theo]] ([[pokemon:theo-houndoom|Houndoom]], [[pokemon:theo-liepard|Liepard]]) and [[character:crale|Crale]] attack. [[pokemon:nova-litwick|Litwick]] absorbs Pyroar's Flamethrower, and Batiste names what it did: Flash Fire. [[pokemon:wren-dreepy|Dreepy]]'s Astonish, [[pokemon:jax-pawmi|Pawmi]]'s Thunder Shock and [[pokemon:sora-eevee|Eevee]]'s new Bite all help, and Voss's Mega Metagross cracks the Prism Core with Meteor Mash. Voss holds a door for six minutes and is arrested without resisting. She chose Nova.",
       "[[character:lucien|Lucien]] drops from the glass roof, with [[pokemon:lucien-zoroark|Zoroark]] filling the room with hundreds of Novas. “Hello, Papa.” Afterward, in a pavilion, Nova and Lucien share a hug: “You said his name.” “And you said ‘hello, Papa.’” Nova also gives [[character:dani|Dani]] her first honest “When I can, Mama.”",
-      "In the tag, a shaken Verane says:“…He let her out… And she's fourteen… I finally saw the key.”"
+      "In the tag, a shaken Verane says:“…He let her out… And she's fourteen… I finally saw the key.”",
+      "Afterward, in the back of a black Peugeot 508 on the Quai d'Orsay, [[character:okonkwo-hale|the Director]] tells [[character:voss|Voss]] he hired her ten years and four months ago, takes the Key Stone from her silver cuff (“Metagross stays registered to you”) and warns her that Nova will soon need someone she trusts: “Make sure it isn't you, Adrienne. You'll only hurt her.” Voss tells him the Prism Core was a lure, and that someone opened a mirror on the Beast Ball's feed at 20:59:29 under credential DIR.01."
     ],
     characters:["nova","sora","lucien","batiste","voss","elias-verane","okonkwo-hale","mara","theo","crale","wren","jax","dani"],
     pokemon:["necrozma","nova-litwick","sora-eevee","lucien-zoroark","voss-metagross","wren-dreepy","jax-pawmi","lumen-honchkrow","mara-pyroar","theo-houndoom","theo-liepard"],
@@ -301,5 +302,76 @@ WIKI.episodes.push(
     locations:["grand-palais"],
     trivia:["Necrozma's ability, Prism Armor, is revealed on the page.","Litwick's ability, Flash Fire, is revealed.","Eevee learns Bite.","Nova gets a memory of Verane's lab from Necrozma's side.","Okonkwo-Hale is not the same person as Dr. Imogen Hale."],
     quotes:["“Novalee. There you are.” — Elias Verane","“Yield's up eleven percent. Good. Again.” — from Necrozma's memory","“Hello, Papa.” — Lucien","“When I can, Mama.” — Nova","“…I finally saw the key.” — Elias Verane"],
-    added:"2026-10-06" }
+    added:"2026-10-06" },
+
+  // ───────────── EPISODES 22–25 ─────────────
+
+  { id:"EP22", season:2, num:22, title:"Three Copies", jpTitle:"三つのコピー", romaji:"Mittsu no Kopī",
+    airDate:"Feb 26–27, 2027",
+    summary:"A lighthouse on a pole in Denbigh, three copies of Faure's evidence, a locked archive nobody can break, and a ten o'clock meeting that ends with an approved trip to Kanto.",
+    synopsis:[
+      "Friday night, after the gala. Nova, Sora, Wren, Lucien and Batiste ride east across Paris to [[character:brissac|Madame Brissac]]'s, where Nova tells her parents on FaceTime who the sponsor really is: Dr. Verane of Lumen Meridian. [[character:noa|Noa]] recognizes Lumen's GridSense boxes, the ones his utility subcontract installed on Denbigh circuits, and realizes the box on the pole behind their house vanished the night it blew. In Nova's room [[pokemon:necrozma|Necrozma]], fed on every lamp, pushes the shard back into her hand.",
+      "At [[location:rue-de-lancry|Flat 5G]], [[character:faure|Faure]] mounts the 412 GB encrypted volume (password: MIETTE, the name of her [[pokemon:miette|Fletchinder]]). A GridSense document shows pole 4471-C was anchor B-07, a beacon keyed to Necrozma's cradle, “a lighthouse,” prepared by R. Hollis and approved by E.V. [[character:callahan|Callahan]] is turned away at the guesthouse and phones a Manhattan number, and [[character:wren|Wren]] texts Nova that she's coming to the meeting. The first copy fails verification at 11:52 PM with an I/O error that Faure says a flash drive shouldn't have: “I have seen drives fail. I have not seen one change its mind.”",
+      "Faure confesses to Necrozma about the two-millimeter window she built into its band. By 2:53 AM there are three drives: 1 — Paris — R.B., 2 — Hachiōji — K.T., 3 — Virginia — K.K. Folder 06, LEAGUE_CONTACT_M, holds an AES-256 archive sealed with a key held by E.V. and M. only. [[character:lucien|Lucien]] says out loud that he could walk up to his father and ask; Nova asks him to knock on her door first.",
+      "Saturday, 10 AM, the Salle des Tapisseries on [[location:rue-de-varenne|Rue de Varenne]]. The Director names himself interim liaison. Callahan claims the Beast Ball for Aether, and lawyer [[character:duvivier|Duvivier]] says that would void Condition Two and lapse the registration. [[character:ashby|Ashby]] cites Article 11 of the Student Field Program Charter, and [[character:dani|Dani]] makes the lawyer admit a review panel takes “weeks.” Then [[character:laval|Dr. Laval]], called at 7 AM by Wren, walks in, proves Callahan wrote the claim herself at 00:51, withdraws it, loans the ball to Nova, and puts Callahan on leave.",
+      "The Director then pushes through an amendment approving Nova's trip to Kanto for mission MSN-KT-0311, with firmware telemetry and a daily video check-in. Dani's four handwritten conditions go into the margin. Sora had already pressed Accept on the mission without telling Nova; she signs with a star over the i. In the tag, [[character:voss|Voss]], suspended in a Bercy hotel room, reads the executed amendment and an old notebook entry: Takao, August 12, 2019, field lead T.O-H. “No. Not Takao.”"
+    ],
+    characters:["nova","sora","lucien","batiste","wren","faure","brissac","dani","noa","ashby","okonkwo-hale","voss","callahan","laval","duvivier","hollis","elias-verane"],
+    pokemon:["necrozma","nova-litwick","wren-dreepy","aurore","miette","voss-metagross","ashby-slowbro","laval-gardevoir","sora-eevee","iwanko"],
+    species:["necrozma","meowstic","fletchinder","slowbro","arcanine","gardevoir","metagross"],
+    locations:["rue-des-rosiers","rue-de-lancry","rue-de-varenne","pullman-bercy","denbigh"],
+    trivia:["First time Nova tells her parents the sponsor's name.","GridSense is introduced: Lumen beacons keyed to the Beast Ball's cradle, with Denbigh chosen for “low population density.”","Madame Brissac's first name is Solène; her late husband is Henri.","Nothing in the episode explains why Faure's drive “changed its mind” at block 271,844,352.","Kanto mission MSN-KT-0311 is first posted here: Takao Ranger Station, Hachiōji, starting March 20, 2027 (¥60,000 plus a Ranger certificate)."],
+    quotes:["“It ain't pick nothing. He aimed it. At a pole.” — Nova","“I have seen drives fail. I have not seen one change its mind.” — Faure","“I understand. That's why I did it.” — Wren","“That man just got everything he wanted, and he lost twice.” — Batiste","“You don't get to go up that mountain without the first person you told.” — Nova, to Sora"],
+    added:"2026-10-08" },
+
+  { id:"EP23", season:2, num:23, title:"Get Small, Litwick!", jpTitle:"小さくなれ、ヒトモシ！", romaji:"Chiisaku Nare, Hitomoshi!",
+    airDate:"Feb 27 – Mar 1, 2027",
+    summary:"A candle, a firmware update, a stolen Zoroark, and a rematch on the gravel where Litwick lost in forty-eight seconds.",
+    synopsis:[
+      "Litwick stares at an IKEA pillar candle for two hours, trying to do what La Lanterne's Chandelure did at Bercy. At the first 9 AM video check-in, Nova names Sora as present, as her mother's rule requires, and the Director thanks her for telling him. He also announces that firmware v3.0 will install on the Beast Ball after midnight.",
+      "Sunday afternoon at Buttes-Chaumont, [[pokemon:iwanko|Iwanko]] sniffs a dimmed [[pokemon:nova-litwick|Litwick]] out through Smog and wins the training bout. [[character:lucien|Lucien]] explains the trick: “You don't hide the whole Pokémon. You make it smaller than where they're looking.” Pressed about his third Pokémon, he finally shows them [[pokemon:lucien-zoroark|a Hisuian Zoroark]] he freed from his father's annex at Lac d'Annecy last November. [[character:jax|Jax]] posts a rematch challenge on TikTok.",
+      "At 12:47 AM the firmware installs, the ball's node strobes white for twelve seconds, and its pulse jumps from one a second to two. On Monday at 6:13 PM on the gravel of the [[location:champ-de-mars|Champ de Mars]], Litwick finally learns Minimize. Jax's Pawmi uses Charge to light its smog shadow, but a pea-sized Litwick still wins. “Good battle, Kealoha.” “Good battle, Reyes.”",
+      "In the tag, in Hidenwood, Virginia, [[character:papa-k|Papa K]] signs for a DHL package from Paris and locks the third drive in his gun safe beside a velvet ring box."
+    ],
+    characters:["nova","sora","lucien","jax","bia","boogie","batiste","okonkwo-hale","papa-k","kennedy"],
+    pokemon:["necrozma","nova-litwick","iwanko","lucien-zoroark","jax-pawmi","waffle","boogie-applin","bia-fuecoco","absol","sora-eevee"],
+    species:["litwick","rockruff","zoroark-hisui","pawmi","necrozma"],
+    locations:["rue-des-rosiers","buttes-chaumont","champ-de-mars","hidenwood","annecy-annex"],
+    trivia:["Litwick learns Minimize, its fourth move after Ember, Astonish and Smog.","The firmware v3.0 update changes the Beast Ball's node pulse from one to two per second.","Lucien's Zoroark is unregistered and unnamed by his choice.","Kennedy Price is mentioned for the first time as heading to Paris from Madrid."],
+    quotes:["“You don't hide the whole Pokémon. You make it smaller than where they're looking.” — Lucien","“LITWICK! GET SMALL!” — Nova","“I prepped for the dim trick. I prepped hard. I ain't prep for that. Good battle, Kealoha.” — Jax","“Small things survive.” — Batiste","“Not scared of the dark anymore, huh.” — Papa K"],
+    added:"2026-10-08" },
+
+  { id:"EP24", season:2, num:24, title:"Happy Birthday, Sora", jpTitle:"誕生日おめでとう、ソラ", romaji:"Tanjōbi Omedetō, Sora",
+    airDate:"Mar 2–4, 2027",
+    summary:"A stolen cake, a failed catch, a box from Hachiōji with a photograph in it, and a spreadsheet that proves who ignored the warning.",
+    synopsis:[
+      "Sora's phone fills with LINE birthday messages at midnight Tokyo time, including a bare “16.” from his dad. At the 9 AM check-in the Director wishes him a happy birthday, which unsettles both kids; he knew from the registration file. [[character:brissac|Madame Brissac]] bakes a hubcap-sized kouign-amann, and a wild [[pokemon:morpeko|Morpeko]] steals it. Sora chases it through the Marais and onto a Line 1 platform at Saint-Paul, where it turns Hangry and escapes. His Poké Ball wiggles three times, then bursts. [[character:mercier|Brigadier Mercier]] gives him a written warning and a fifty-euro fine: “There are no gray areas on the Paris Métro, monsieur. Only RATP.”",
+      "Back at the house, a box from Hachiōji: an omamori from Yakuōin, the keys to a red Honda Super Cub his father rebuilt, a note saying he can take the moped test now that he's sixteen, and a 2019 print of Takao at night. A Perseid streak cuts across the sky; low over the ridge is a violet-blue smudge. Sora's glasses match it to his log entry #0001 and to Aether's K-19-0812, six minutes before the aperture. “It was there from the start.”",
+      "At the party, [[pokemon:nova-litwick|Litwick]] shrinks to a one-inch candle on the cake and won't be blown out. Gifts: a PSG scarf from Boogie, a camera strap and a documentary coupon from Jax and Bia, a dried Flabébé flower from Wren, a Michelin map with “NO” written across central Paris from Lucien, Batiste's old Ranger Union patch “for Takao,” and Nova's drawing of eight-year-old Sora on the mountain, a violet footprint trail leading home: “I believe you. — N.”",
+      "On the roof, [[pokemon:necrozma|Necrozma]] points one arm east, toward Japan. Lucien's Nokia buzzes: Faure has opened folder 07. After midnight, the Galar Pilot log from February 11 shows a Lumen operator recommending a pause when Asset 04 appeared over Euston, and “E.V.” writing, “Continue. Record everything.” Three hundred people ended up in hospital. The last line: “Asset 04 drew Dynamax energy at Euston. It can take it. Revisit.”"
+    ],
+    characters:["nova","sora","lucien","batiste","wren","faure","brissac","jax","bia","boogie","okonkwo-hale","mercier","hollis","elias-verane"],
+    pokemon:["nova-litwick","iwanko","sora-eevee","morpeko","necrozma","mercier-mightyena","jax-pawmi","waffle","boogie-applin","bia-fuecoco","absol","wren-dreepy","gwilym"],
+    species:["morpeko","mightyena","litwick","flabebe","necrozma","snorlax"],
+    locations:["rue-des-rosiers","saint-paul-metro","rue-de-lancry","mt-takao"],
+    trivia:["Sora turns sixteen on March 3, 2027.","His catch count remains seven after the Morpeko gets away.","The glow in the Takao photograph is six minutes earlier than the Aether aperture time; the glasses tag it “Cosmog?” as an unverified guess.","Sora counts “twenty days” to Takao from March 3; it is seventeen.","The Galar Pilot log is the first record that the Darkest Day followed an overridden pause."],
+    quotes:["“‘Not listed’ don't mean ‘no.’ It means ‘not listed.’ That's a legal gray area.” — Sora","“It was already there. Before I got lost. It was right there on the ridge, and my pops took a picture of the meteor, and it was in the corner, and nobody ever looked.” — Sora","“I just figured if it was trying to get you home, it'd make it easy.” — Nova","“You were not the fire, Nova. You were the wind he wanted to measure.” — Faure","“He's not trying to give it back its light. He never was. He wants to see how much it can hold.” — Lucien"],
+    added:"2026-10-08" },
+
+  { id:"EP25", season:2, num:25, title:"The Rival Arrives!", jpTitle:"ライバル、来たる！", romaji:"Raibaru, Kitaru!",
+    airDate:"Mar 4, 2027",
+    summary:"Kennedy Price takes a personal day in Paris, the whole cohort shows up on one video call, and Journee's three-week-old voice memo finally gets played.",
+    synopsis:[
+      "[[character:kennedy|Kennedy Price]] lands at Orly from Madrid with [[character:tobi|Tobi Adeyemi]], her Riolu on her shoulder, and a screenshot of Jax's comment on her phone: “sit down ken.” Meanwhile Nova gets through Day 5 of the 9 AM check-in with her face perfectly still, though she's had four hours of sleep and has been reading “Continue. Record everything.” on a loop.",
+      "At 2 PM Calvin Ashby hosts the cohort's monthly town hall on Teams: [[character:journee|Journee]] in Edinburgh, [[character:tariq|Tariq]] in Cairo, [[character:ayanna|Ayanna]] in Rio, [[character:tae|Tae]] in Sydney, [[character:mariah|Mariah]] in Manila, [[character:isaiah|Isaiah]] in Reykjavík, [[character:brielle|Brielle]] in Cape Town and [[character:caleb|Caleb]] in Vancouver. He reads out the police warning without naming Sora, calls Kennedy's February the best in program history, and asks why her location says Paris. Kennedy says she has “some business.” Café Charlot is a four-minute walk from Maison Brissac.",
+      "Kennedy knocks. In the front hall she tells Nova she doesn't care about the rock or the rain; she cares whether Nova can battle. Riolu is a Fighting type and Litwick a Ghost, which Kennedy says is what makes it fair. She wants a sanctioned battle on Saturday at 10 AM. Nova agrees. Kennedy leaves with a message for Batiste about her old feedback sheet: “Fast is not the same as finished.”",
+      "At night Nova opens Journee's February 13 voice memo at last. Journee's stairwell message ends: “You finally got something that's yours.” Nova writes back, and Journee answers within seconds with twenty-three hearts and one order: beat Kennedy Price."
+    ],
+    characters:["nova","sora","wren","kennedy","tobi","journee","mj-park","ashby","jax","bia","boogie","okonkwo-hale","brissac","tariq","ayanna","tae","mariah","isaiah","brielle","caleb"],
+    pokemon:["nova-litwick","kennedy-riolu","tobi-charcadet","journee-pichu","wren-dreepy","ashby-slowbro","sora-eevee","tariq-sandile","ayanna-pikipek","tae-wooper","mariah-wingull","isaiah-snom","brielle-skwovet","caleb-pidgey","necrozma"],
+    species:["riolu","charcadet","pichu","slowbro","litwick","sandile","pikipek","wooper","wingull","snom","skwovet","pidgey"],
+    locations:["orly","rue-des-rosiers","cafe-charlot"],
+    trivia:["First episode to show the wider Hampton Roads cohort across the world on one call (34 participants).","Kennedy Price: nine sanctioned wins, six missions in February, a 98.6 on Batiste's written assessment.","Journee's voice memo had been waiting unplayed since February 13.","Kennedy's partner and Journee's partner are both introduced by name here."],
+    quotes:["“Run it.” — Kennedy","“'Cause that's what makes it fair.” — Kennedy","“I wanted to say ‘revisit’ to his face so bad.” — Nova","“You finally got something that's yours.” — Journee, in her voice memo"],
+    added:"2026-10-08" }
 );
