@@ -2,6 +2,15 @@
 
 You have no prior context. Read this whole file, then `CLAUDE.md`, then continue at **Phase 4**.
 
+
+## 0. UPDATE (Nov 2, 2026) — READ FIRST, SECTIONS 6 AND 11 BELOW ARE STALE
+The story is far past Ep 25. The wiki only has data for Eps 1–25 and recaps for Eps 1–10.
+- Arc 3 Kanto = Eps 29–44 (Ep 45 bridge north). Arc 4 Kitakami "Village of Masks" = Eps 46–55, Ep 56 epilogue "Namae o Kaku". **Arc 5 Alola** started Ep 57 (Nov 2: at least Ep 60 written; Eevee transferred to Dani/Lani Ep 60).
+- Canon sources are now in the Project (not docs/source, which holds only the old v1/v2): `POKEMON PRISIM V5 continuity guide ` (v5, through Ep 56, replaces v1–v4), `claude/continuity-guide-v4.md`, `POKEMON PRISM UPDATED CONTUINUITY GUIDE` (v3), `claude/arc-5-character-development.md`, `claude/next-note-queue.md`, `claude/pacing-map.md` (has Eps 46–60 beats), `claude/arc-3-guide.md`. Pull them with `project_read` into `docs/source/` first.
+- Latest writing chat for Eps 36+: claude.ai/chat/1f012959-4ace-45bf-be98-38097f33ae05 (older chats: 8a58820d… = Eps 1–21; 8f0b1f58… = Eps 21–25; the chat holding Eps 26–35 is the old writing chat). Newer Arc 4/5 chats: find via `recent_chats`.
+- **Revised plan:** (1) catch the wiki up Eps 26–60: episodes.js-style entries (use `WIKI.episodes.push` in a new `data/arc3-5.js`), new characters/Pokémon/species/locations (Zeraora, Inkay, Phanpy, Snover, Primeape, Lampent, Popplio, Lucario, Tsubaki, Kawehi Akana, Kitakami, Kanto/Tama Hills, Alola/Oʻahu, etc.), arc pages for Arcs 3–5, and `WIKI.merge` updates for changed entries (Litwick→Lampent Ep 50, Riolu→Lucario Ep 59, Iwanko Dusk Lycanroc Tough Claws, Eevee to Dani/Lani). Take facts from guide v5 Part 5/11/12. (2) Then the old Phase 4–6 deep recaps.
+- Rules added since: world rule on Pokémon out of balls by place; episodes never boring; Mason's "quick notes" override older guidance; Oct 30 starter-battle rule per region (Alola: Incineroar, Primeape not; Incineroar/Primarina/Decidueye). Wiki is mainly for Mason's own use; fine to be behind, update in batches.
+
 ## 1. Who / what
 - User: **Mason** (Hampton, VA). Runs the long original fiction series **POKÉMON: PRISM** (real modern Earth where Pokémon always existed; not isekai).
 - Episodes are written in a SEPARATE chat (the "writing chat"). This repo is the **fan wiki**. **Never write episodes or story scenes** here.
